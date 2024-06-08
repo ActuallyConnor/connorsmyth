@@ -3,130 +3,316 @@
 <head>
     <meta charset="UTF-8">
     <title>Connor Smyth</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,800italic,400,300,800"
+          rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 <body>
-<h1>Connor Smyth</h1>
 
-<div class="header">
-    <button>Links</button>
-    <a href="projects">Projects</a><!--    <a href="https://blog.connorsmyth.com">Blog</a>-->
-</div>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
 
-<div id="work-experience">
-    <h2>Work Experience</h2>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
 
-    <div class="work-experience-section work-experience-section-connected work-experience-section-top">
-        <h3 class="work-experience-title">Senior Software Developer, Team Lead</h3>
-        <p class="work-experience-company">ASICS Apps</p>
-        <p class="work-experience-dates">2024-present</p>
-        <p class="work-experience-team">Business Insights</p>
-        <p class="work-experience-location">Remote</p>
-        <ul>
-            <li>Lead scoping efforts, ensuring thorough evaluation, decomposition, sizing, and sequencing of tasks.</li>
-            <li>Collaborate with engineering leadership to maintain adherence to organizational best practices in
-                application design.
-            </li>
-            <li>Assist Product and Design team in evaluating cost and risk associated with new user experiences.</li>
-            <li>Foster team member growth and learning by ensuring correct task assignment, providing coding assistance
-                as needed, and tracking sprint commitments and deadlines.
-            </li>
-            <li>Proactively address tech debt issues, collaborating with technical leadership and product owners to
-                establish priority.
-            </li>
-        </ul>
-    </div>
-    <div class="work-experience-section work-experience-section-connected">
-        <h3 class="work-experience-title">Software Developer</h3>
-        <p class="work-experience-company">ASICS Apps</p>
-        <p class="work-experience-dates">2021-2024</p>
-        <p class="work-experience-team">Registration, Data-Bridge System</p>
-        <p class="work-experience-location">Remote</p>
-        <ul>
-            <li>Designed and implemented GraphQL microservices architecture, leveraging a supergraph to efficiently
-                orchestrate data and queries across multiple services.
-            </li>
-            <li>Engineered and implemented a robust REST API to facilitate seamless database access for both monolithic
-                and microservices architectures.
-            </li>
-            <li>Conducted in-depth analysis to identify slow-running database queries and execute optimization
-                strategies,
-                significantly reducing query response times and enhancing overall system performance.
-            </li>
-            <li>Introduced automated testing solutions to expedite the testing process for high-impact areas, resulting
-                in
-                increased test efficiency and faster feedback loops for development teams.
-            </li>
-        </ul>
-    </div>
+            <a class="navbar-brand" href="/">Connor Smyth</a>
+        </div>
 
-    <div class="work-experience-section work-experience-section-connected work-experience-section-top">
-        <h3 class="work-experience-title">Full Stack Developer, Team Lead</h3>
-        <p class="work-experience-company">Art & Science</p>
-        <p class="work-experience-dates">2020-2021</p>
-        <p class="work-experience-team">Solutions Team</p>
-        <p class="work-experience-location">Toronto, Canada</p>
-        <ul>
-            <li>Proactively conducted regular one-on-one meetings with team members, fostering open communication
-                channels
-                and providing a platform for individualized feedback, career development discussions, and performance
-                assessments.
-            </li>
-            <li>Collaborated closely with cross-functional teams to understand specific workflow pain points, tailoring
-                internal
-                tools to address unique needs and challenges within the organization.
-            </li>
-            <li>Led the successful transformation of a legacy monolith application into a scalable and modular
-                microservices
-                architecture, improving agility, flexibility, and overall system performance.
-            </li>
-            <li>Established robust CI/CD pipelines, automating the build, test, and deployment workflows, resulting in a
-                significant reduction in manual errors and accelerating the software delivery lifecycle.
-            </li>
-        </ul>
-    </div>
+        <div class="collapse navbar-collapse" id="navbar">
 
-    <div class="work-experience-section work-experience-section-connected">
-        <h3 class="work-experience-title">Full Stack Developer</h3>
-        <p class="work-experience-company">Art & Science</p>
-        <p class="work-experience-dates">2019-2020</p>
-        <p class="work-experience-location">Toronto, Canada</p>
-        <ul>
-            <li>Advanced Customization and Development: Develop custom WordPress themes and plugins from scratch,
-                ensuring they are optimized for performance and meet client-specific needs.
-            </li>
-            <li>Code Review and Optimization: Review code written by junior developers, providing feedback and ensuring
-                adherence to best practices, as well as optimizing existing code for better performance and scalability.
-            </li>
-            <li>Integration and API Management: Implement and manage integrations with third-party services and APIs,
-                ensuring seamless functionality and data flow between WordPress sites and external systems.
-            </li>
-            <li>Client Communication and Project Management: Liaise with clients to gather requirements, provide
-                updates, and deliver technical support, while also managing project timelines and deliverables to ensure
-                successful project completion.
-            </li>
-        </ul>
+            <ul class="nav navbar-nav">
+
+                <li>
+                    <a href="/projects/">Projects</a>
+                </li>
+
+                <li>
+                    <a href="https://blog.connorsmyth.com">Blog</a>
+                </li>
+
+            </ul>
+
+        </div>
     </div>
-    <div class="work-experience-section work-experience-section-connected">
-        <h3 class="work-experience-title">Junior Developer</h3>
-        <p class="work-experience-company">Art & Science</p>
-        <p class="work-experience-dates">2019-2019</p>
-        <p class="work-experience-location">Toronto, Canada</p>
-        <ul>
-            <li>Develop and Maintain WordPress Websites: Assist in the creation, customization, and maintenance of
-                WordPress websites, ensuring they are functional, responsive, and visually appealing.
-            </li>
-            <li>Implement and Modify Themes and Plugins: Install, configure, and modify WordPress themes and plugins to
-                meet client requirements, ensuring compatibility and optimal performance.
-            </li>
-            <li>Troubleshoot and Resolve Issues: Identify and fix bugs, performance issues, and other technical problems
-                that arise on WordPress sites, providing prompt and effective solutions.
-            </li>
-            <li>Collaborate with Design and Development Teams: Work closely with designers and senior developers to
-                translate design mockups into fully functional websites, ensuring alignment with project goals and
-                timelines.
-            </li>
-        </ul>
-    </div>
-</div>
+</nav>
+
+<section id="content">
+    <section id="cv">
+
+        <section id="intro">
+            <div class="container">
+                <h1>Connor Smyth</h1>
+
+                <div class="wrapper">
+                    <div class="intro">
+                        <h2>Senior Software Developer, Team Lead</h2>
+                        <p>
+                            Dynamic backend developer with a passion for scalable, reliable solutions. Proven in
+                            efficient backend architecture,
+                            optimizing performance, and fostering collaborative teams. A dedicated leader committed to
+                            delivering high-quality
+                            products.
+                        </p>
+                    </div>
+                    <div class="details">
+                        <div class="row">
+                            <div class="column">
+                                <h2>Details</h2>
+                                <dl>
+                                    <dt>Name</dt>
+                                    <dd>Connor Smyth</dd>
+
+                                    <dt>Location</dt>
+                                    <dd>Ottawa, Ontario, Canada</dd>
+                                </dl>
+                            </div>
+                            <div class="column">
+                                <img src="/img/headshot.jpg" alt="Connor Smyth"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+
+            <h2>Skills</h2>
+            <p>
+                The world of the web changes at an incredible
+                pace. Web applications are built using an ever
+                shifting set of languages, frameworks and
+                dogmas. I have had to adapt and learn. This can
+                be a challenge, but one that is both fun and
+                rewarding.
+            </p>
+
+            <div class="skillsets row">
+                <div class="skillset col-md-4">
+                    <h3>Engineering</h3>
+                    <ul>
+                        <li>Web Application Backends</li>
+                        <li>Web Application Frontends</li>
+                        <li>Real Time Web Communication</li>
+                        <li>Rich User Interfaces</li>
+                        <li>Data Presentation</li>
+                    </ul>
+                </div>
+
+                <div class="skillset">
+                    <h3>Focussing On</h3>
+                    <ul>
+                        <li>Performance</li>
+                        <li>Scalablity</li>
+                        <li>Ergonomics</li>
+                        <li>Maintainability</li>
+                        <li>Usability</li>
+                    </ul>
+                </div>
+                <div class="clearfix visible-xs-block"></div>
+
+                <div class="skillset">
+                    <h3>Interests</h3>
+                    <ul>
+                        <li>Framework and API Design</li>
+                        <li>Domain Modelling</li>
+                        <li>Functional Programming</li>
+                        <li>Requirements Engineering</li>
+                        <li>High Performance Publishing</li>
+                    </ul>
+                </div>
+
+                <div class="skillset col-md-4">
+                    <h3>Publishing</h3>
+                    <ul>
+                        <li>Dynamic Content</li>
+                        <li>Responsive Layouts</li>
+                        <li>Relational Content Management</li>
+                        <li>Search Engine Optimization</li>
+                        <li>Content Structuring</li>
+                    </ul>
+                </div>
+                <div class="clearfix visible-xs-block"></div>
+
+                <div class="skillset">
+                    <h3>Optimizing</h3>
+                    <ul>
+                        <li>Web Server Performance</li>
+                        <li>Static Content</li>
+                        <li>Dynamic Frontends</li>
+                        <li>Cache Layers</li>
+                        <li>HTTP Request Flow</li>
+                    </ul>
+                </div>
+
+                <div class="skillset">
+                    <h3>Engaging</h3>
+                    <ul>
+                        <li>Engage Actors</li>
+                        <li>Find Requirements</li>
+                        <li>Organize and Plan</li>
+                        <li>Iterate and Deliver</li>
+                        <li>Create Prototypes/Mockups</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="work-experience">
+            <h2>Work Experience</h2>
+
+            <div class="work-experience-section work-experience-section-connected work-experience-section-top">
+                <h3 class="work-experience-title">Senior Software Developer, Team Lead</h3>
+                <p class="work-experience-company">ASICS Apps</p>
+                <p class="work-experience-dates">2024-present</p>
+                <p class="work-experience-team">Business Insights</p>
+                <p class="work-experience-location">Remote</p>
+                <ul>
+                    <li>Lead scoping efforts, ensuring thorough evaluation, decomposition, sizing, and sequencing of
+                        tasks.
+                    </li>
+                    <li>Collaborate with engineering leadership to maintain adherence to organizational best practices
+                        in
+                        application design.
+                    </li>
+                    <li>Assist Product and Design team in evaluating cost and risk associated with new user
+                        experiences.
+                    </li>
+                    <li>Foster team member growth and learning by ensuring correct task assignment, providing coding
+                        assistance
+                        as needed, and tracking sprint commitments and deadlines.
+                    </li>
+                    <li>Proactively address tech debt issues, collaborating with technical leadership and product owners
+                        to
+                        establish priority.
+                    </li>
+                </ul>
+            </div>
+            <div class="work-experience-section work-experience-section-connected">
+                <h3 class="work-experience-title">Software Developer</h3>
+                <p class="work-experience-company">ASICS Apps</p>
+                <p class="work-experience-dates">2021-2024</p>
+                <p class="work-experience-team">Registration, Data-Bridge System</p>
+                <p class="work-experience-location">Remote</p>
+                <ul>
+                    <li>Designed and implemented GraphQL microservices architecture, leveraging a supergraph to
+                        efficiently
+                        orchestrate data and queries across multiple services.
+                    </li>
+                    <li>Engineered and implemented a robust REST API to facilitate seamless database access for both
+                        monolithic
+                        and microservices architectures.
+                    </li>
+                    <li>Conducted in-depth analysis to identify slow-running database queries and execute optimization
+                        strategies,
+                        significantly reducing query response times and enhancing overall system performance.
+                    </li>
+                    <li>Introduced automated testing solutions to expedite the testing process for high-impact areas,
+                        resulting
+                        in
+                        increased test efficiency and faster feedback loops for development teams.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="work-experience-section work-experience-section-connected work-experience-section-top">
+                <h3 class="work-experience-title">Full Stack Developer, Team Lead</h3>
+                <p class="work-experience-company">Art & Science</p>
+                <p class="work-experience-dates">2020-2021</p>
+                <p class="work-experience-team">Solutions Team</p>
+                <p class="work-experience-location">Toronto, Canada</p>
+                <ul>
+                    <li>Proactively conducted regular one-on-one meetings with team members, fostering open
+                        communication
+                        channels
+                        and providing a platform for individualized feedback, career development discussions, and
+                        performance
+                        assessments.
+                    </li>
+                    <li>Collaborated closely with cross-functional teams to understand specific workflow pain points,
+                        tailoring
+                        internal
+                        tools to address unique needs and challenges within the organization.
+                    </li>
+                    <li>Led the successful transformation of a legacy monolith application into a scalable and modular
+                        microservices
+                        architecture, improving agility, flexibility, and overall system performance.
+                    </li>
+                    <li>Established robust CI/CD pipelines, automating the build, test, and deployment workflows,
+                        resulting in a
+                        significant reduction in manual errors and accelerating the software delivery lifecycle.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="work-experience-section work-experience-section-connected">
+                <h3 class="work-experience-title">Full Stack Developer</h3>
+                <p class="work-experience-company">Art & Science</p>
+                <p class="work-experience-dates">2019-2020</p>
+                <p class="work-experience-location">Toronto, Canada</p>
+                <ul>
+                    <li>Advanced Customization and Development: Develop custom WordPress themes and plugins from
+                        scratch,
+                        ensuring they are optimized for performance and meet client-specific needs.
+                    </li>
+                    <li>Code Review and Optimization: Review code written by junior developers, providing feedback and
+                        ensuring
+                        adherence to best practices, as well as optimizing existing code for better performance and
+                        scalability.
+                    </li>
+                    <li>Integration and API Management: Implement and manage integrations with third-party services and
+                        APIs,
+                        ensuring seamless functionality and data flow between WordPress sites and external systems.
+                    </li>
+                    <li>Client Communication and Project Management: Liaise with clients to gather requirements, provide
+                        updates, and deliver technical support, while also managing project timelines and deliverables
+                        to ensure
+                        successful project completion.
+                    </li>
+                </ul>
+            </div>
+            <div class="work-experience-section work-experience-section-connected">
+                <h3 class="work-experience-title">Junior Developer</h3>
+                <p class="work-experience-company">Art & Science</p>
+                <p class="work-experience-dates">2019-2019</p>
+                <p class="work-experience-location">Toronto, Canada</p>
+                <ul>
+                    <li>Develop and Maintain WordPress Websites: Assist in the creation, customization, and maintenance
+                        of
+                        WordPress websites, ensuring they are functional, responsive, and visually appealing.
+                    </li>
+                    <li>Implement and Modify Themes and Plugins: Install, configure, and modify WordPress themes and
+                        plugins to
+                        meet client requirements, ensuring compatibility and optimal performance.
+                    </li>
+                    <li>Troubleshoot and Resolve Issues: Identify and fix bugs, performance issues, and other technical
+                        problems
+                        that arise on WordPress sites, providing prompt and effective solutions.
+                    </li>
+                    <li>Collaborate with Design and Development Teams: Work closely with designers and senior developers
+                        to
+                        translate design mockups into fully functional websites, ensuring alignment with project goals
+                        and
+                        timelines.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+                integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+                crossorigin="anonymous"></script>
 </body>
 </html>
